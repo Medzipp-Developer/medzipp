@@ -1,8 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: kishor
- * Date: 5/31/2017
- * Time: 12:29 PM
- */
-echo "Kishor";
+<div class="container-fluid">
+    <table class="table table-stripped">
+        <tr>
+            <th>S.No</th>
+            <th>Adhar No</th>
+            <th>Patient Name</th>
+            <th>Upload Source</th>
+            <th>Report Type</th>
+            <th>Uploaded File</th>
+            <th>Report Link</th>
+            <th>Upload Time</th>
+        </tr>
+    </table>
+
+</div>
