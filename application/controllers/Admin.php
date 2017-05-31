@@ -4,9 +4,9 @@
  * Created by PhpStorm.
  * User: kishor
  * Date: 5/31/2017
- * Time: 12:21 PM
+ * Time: 5:46 PM
  */
-class Home extends FrontController
+class Admin extends AdminController
 {
     function __construct()
     {
@@ -14,7 +14,6 @@ class Home extends FrontController
     }
     function index()
     {
-        echo "kishor pant";
+        echo "Admin Panel";
     }
-
 }

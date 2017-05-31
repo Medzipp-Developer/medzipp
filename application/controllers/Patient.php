@@ -4,9 +4,9 @@
  * Created by PhpStorm.
  * User: kishor
  * Date: 5/31/2017
- * Time: 12:24 PM
+ * Time: 12:21 PM
  */
-class dashboard extends AdminController
+class Patient extends PatientController
 {
     function __construct()
     {
@@ -14,6 +14,8 @@ class dashboard extends AdminController
     }
     function index()
     {
-       echo "admin Page Kishor Pant";
+        $data['']='';
+       $this->show('Home',$data);
     }
+
 }

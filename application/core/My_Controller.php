@@ -14,7 +14,7 @@ class My_Controller extends CI_Controller
     }
 
 }
-class FrontController extends My_Controller
+class PatientController extends My_Controller
 {
     function __construct()
     {
@@ -22,7 +22,11 @@ class FrontController extends My_Controller
     }
     function show($viewname,$data)
     {
-        $this->load->view($viewname,$data);
+
+        $this->load->view('Patient/Header');
+        $this->load->view('Patient/'.$viewname,$data);
+        $this->load->view('Patient/Footer');
+
     }
 }
 class AdminController extends My_Controller

@@ -49,10 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'home';
+$route['default_controller'] = 'Patient';
 $route['404_override'] = 'error_page';
-
-$route['admin']	= 'admin/dashboard';
-//$route['vendor']= 'vendor/dashboard';
-
 $route['translate_uri_dashes'] = TRUE;
