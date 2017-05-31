@@ -14,6 +14,7 @@ class Admin extends AdminController
     }
     function index()
     {
-        echo "Admin Panel";
+        $data['']='';
+        $this->show('Home',$data);
     }
 }

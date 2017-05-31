@@ -37,6 +37,9 @@ class AdminController extends My_Controller
     }
     function show($viewname,$data)
     {
-        $this->load->view($viewname,$data);
+        $this->load->view('Admin/Header');
+        $this->load->view('Admin/'.$viewname,$data);
+        $this->load->view('Admin/Footer');
+
     }
 }
