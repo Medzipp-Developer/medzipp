@@ -23,8 +23,8 @@
             <td><?php echo $name[$i++];?></td>
             <td><?php echo $name[$i++];?></td>
             <td>
-                <button class="btn btn-info btn-md" type="button">
-                    <i class="glyphicon glyphicon-eye-open"></i>View
+                <button class="btn btn-md" type="button">
+                    <i class="glyphicon glyphicon-eye-open"></i>
                 </button>
                </td>
 
